@@ -32,6 +32,10 @@ ol, ul {
   width: 34px;
 }
 
+.square--win {
+  background-color: #ffdf88;
+}
+
 .square:focus {
   outline: none;
 }
@@ -47,4 +51,27 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.history-item {
+  margin-bottom: 5px;
+}
+
+.history-button {
+  background-color: #b1e7ff;
+  border: none;
+  border-radius: 3px;
+  padding: 3px 10px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  outline: none;
+}
+
+.history-button:hover {
+  background-color: #a5d1e9;
+}
+
+.history-button.active {
+  background-color: #e9a390;
+  cursor: default;
 }
